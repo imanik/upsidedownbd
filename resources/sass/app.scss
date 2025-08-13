@@ -1,0 +1,31 @@
+
+// tailwindcss
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+// plugins
+@import "~select2/dist/css/select2.css";
+
+@import "~flatpickr/dist/flatpickr.css";
+
+@import "~datatables.net-dt/css/jquery.dataTables.css";
+
+// @import "~toastr/build/toastr.min.css";
+
+// @import '~sweetalert2/src/sweetalert2';
+
+// plugins modification
+@import "./components/datatable";
+
+@import "./components/select2";
+
+// custom
+@import "./custom";
+
+@import "./components/icon";
+
+@import "./components/gradient";

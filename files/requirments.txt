@@ -1,0 +1,128 @@
+=======Upside Down=======
+1st Requirement
+    Online ticket system
+        User
+        Admin
+    ERP
+
+    =======Ticket features
+    Go to Ticket portal
+    Choose Branch/Gallery
+    Choose Date
+    Select Slot branch specific
+    Ticket price adult and child different and branch specific
+    Ticket expiry 1 month.
+    And reschedule possible in between 1 month unlimited time.
+    Discount coupon branch specific
+        2 type
+        Day specific coupon
+        Start date, expiry date coupon
+    Open Form
+        Name
+        Mobile
+        Email address
+        Adult ticket count
+        Child ticket count
+        DSLR (optional)
+            Type 1 - 300 tk 50
+            Type 2 - 500 tk 100
+        Discount coupon
+        After clicking submit button preview
+        Auto Registered
+        Go to payment page (SSL)
+    Bundle and combo (customer count, day wise,) start date, end date branch specific
+    Refund possible before 3 days
+    Visit day refundable
+    Ticket reschedule
+    Ticket QR Code - Unique Reference
+    Digital Ticket copy
+    User dashboard -
+        Refund - *****
+        Reschedule - *****
+        Image uploaded link?
+    Admin Dashboard -
+        Admin
+        Manager branch specific
+    Calendar view - *****
+        Slot status
+        Visitor count
+        Payment collection
+        Discount coupon applied
+    At Visit time take volunteer service providers info
+    At visit time take Photographer service provider info
+    Can be publishable in social networks, take permission from customers.
+    Employee creation
+    Permissions
+        Admin
+        Manager
+
+
+#17-07-2021
+    refundable off - done
+    login button in home - done
+    payment search branch n date - done
+    ticket search branch n date - done
+    ticket coupon dile total amount minus show korte hobe - done
+
+    dashboard - ticket check link - done
+    visiting panel... by Reference number n phone number n email [visited n not visited] - done
+    remarks n extra cash amount in ticket
+    visited at column in ticket - done
+    show page terms n condition removed - done
+
+    Employee check in out hours
+
+
+#31/07/2021
+    adult (age 10+) - done
+    child (4 to 10) - done
+    payment cancel error - done
+    notification in dashboard
+    ticket confirmation mail - done
+    payment policy only in payment - done
+
+
+#03-08-2021
+    1. bundle will show under offer and promotion in home page
+    2. 400x500 image
+    3. manager ticket show extra ticket can buy by cash
+    4.
+
+
+#checkup
+    1. ticket alpinejs init function old value modify
+    2. ticket creation denied for admin
+    3. header menu removed only through to dashboard. - done
+    4. notification removed - done
+    5. alert show every time if any ticket not paid found. - done
+
+
+###Testing Phase
+
+#Day 11-07-2021
+    1. Customer Dashboard - done
+    2. Ticket view card - done
+    3. Basic profile card - done
+    4. Password change - done
+    5. Ticket Download - done
+    6. Reschedule
+    7. Photo link
+    8. Food Order
+
+    9. Bundles validity 365 days
+
+
+    Bundle Name - done
+    Bundle Image - done
+
+#18-07-2021
+    1. pdf ticket upsidedown image right side. - done
+
+#24-08-2021
+    1. Slot disable after time
+    2. coupon check branch wise - done
+    3. ticket n bundle Reference random 8 digit - done
+    4. Employee index record details - done
+    5. payment index search error - done
+    6. branch image - done
+    7.

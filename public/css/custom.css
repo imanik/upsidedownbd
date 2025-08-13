@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'SutonnyMJ';
+    src: url('../fonts/SutonnyOMJ.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SutonnyMJ';
+    src: url('../fonts/SutonnyOMJ.woff') format('woff'),
+    url('../fonts/SutonnyOMJ.ttf')  format('truetype'),
+    url('../fonts/SutonnyOMJ.svg#SutonnyOMJ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'SutonnyMJ', "Roboto Condensed", sans-serif;
+    font-size: 18px;
+}
+.content {
+    position: relative;
+}
+.form-header {
+    position: absolute;
+    margin-top: -100px;
+    z-index: 40;
+    width: 100%;
+}
+.apply-form {
+    padding: 30px 40px 0;
+}
+@media (max-width: 991px) {
+    .main-box {
+        padding: 0 30px !important;
+    }
+    .btn-register {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    body,
+    label {
+        font-size: 17px;
+    }
+    .c-content-panel .c-body {
+        padding: 80px 20px 20px 20px;
+    }
+}
+@media (max-width: 600px) {
+    body,
+    label {
+        font-size: 16px;
+    }
+    .apply-form {
+        padding: 30px 0 0;
+    }
+    .c-content-tab-1 .tab-content.c-padding-lg {
+        padding: 0;
+    }
+}
+@media (max-width: 445px) {
+    body,
+    label {
+        font-size: 15px;
+    }
+    .c-content-title-1 > h3.c-font-uppercase {
+        font-size: 20px;
+    }
+    .c-content-bar-3 .c-content-title-1 > p {
+        font-size: 12px;
+    }
+    .btn-register {
+        font-size: 14px;
+        padding: 6px 12px !important;
+    }
+}
+@media (max-width: 320px) {
+    .main-box {
+        padding: 0 10px !important;
+    }
+}
+.c-bg-red-fresh{
+  background-color: #c13333;
+}
+
+.btn-fresh {
+    white-space: normal;
+    color: #ffffff;
+    background: #c13333;
+    border-color: #c13333;
+}
+
+.cbp-l-filters-underline .cbp-filter-item.cbp-filter-item-active,
+.cbp-l-filters-underline .cbp-filter-item,
+.cbp-caption-expand .cbp-caption-defaultWrap,
+.cbp-caption-expand .cbp-l-caption-body
+{
+    font-family: 'SutonnyMJ', "Roboto Condensed", sans-serif;
+}
+
+.lang-bn .c-links > li > a:not(.btn),
+.lang-bn .nav.navbar-nav > li > .c-link,
+.lang-bn .nav.navbar-nav > li > .dropdown-menu a {
+    font-size: 18px !important;
+}
+.lang-bn h2 {
+    font-size: 24px;
+}
+.lang-bn h4 {
+    font-size: 18px;
+}
+.lang-en .c-btn-uppercase.btn{
+    font-size: 18px !important;
+    padding: 4px 18px 2px 18px;
+}
+.c-radio label > .check {
+    background: #757575;
+}
+.c-radio-inline {
+    margin: 0;
+}
+.lang-flag {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+#ajaxForm .fileinput {
+    margin-bottom: 0;
+}
+.home_certificate{
+    height: 400px;
+    width: 100%;
+}
+.c-content-feature-11 .c-grid > .c-grid-row > li:hover{
+    cursor:pointer !important;
+}
+
+
+#nprogress .bar {
+    z-index: 50000;
+    background: #ff5722;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #bf360c, 0 0 5px #bf360c;
+}
+@media (min-width: 992px) {
+    .c-layout-header.c-layout-header-6 .c-topbar .c-brand {
+        margin: -24px 0;
+        padding: 14px 0;
+    }
+    .c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-logo:after {
+        top: 22px;
+    }
+    .c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
+        margin: 0;
+    }
+    .c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand .c-desktop-logo-inverse {
+        display: block;
+        height: 65px;
+    }
+}
+@media (max-width: 991px) {
+    .c-layout-header .c-brand .c-mobile-logo {
+        height: 50px;
+        margin: -20px 0px;
+    }
+}

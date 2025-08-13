@@ -1,0 +1,14 @@
+1. commit n push
+
+2. git checkout dev
+3. git pull
+4. git merge origin/anik
+5. git add . + git commit -m 'merge with dev, anik' + git push
+
+6. git checkout master
+7. git pull
+8. git merge dev
+9. git add . + git commit -m 'merge with master, dev' + git push
+
+
+

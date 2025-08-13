@@ -1,0 +1,87 @@
+
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+
+$brand: #f4f9f9;
+$brand-alt: #114e60;
+$brand-deep: #e7e6e1;
+$brand-blue: #0074ba;
+$brand-green: #006930;
+$brand-gray: #6b6868;
+$brand-light: #d2cece;
+
+$gradient-start: $brand;
+$gradient-end: $brand-green;
+
+.main-image {
+    height: 160px;
+
+    @media screen and (min-width: $sm) {
+        height: 240px;
+    }
+    @media screen and (min-width: $md) {
+        height: 300px;
+    }
+    @media screen and (min-width: $lg) {
+        height: 380px;
+    }
+    @media screen and (min-width: $xl) {
+        height: 460px;
+    }
+}
+
+.bg-brand-light {
+    background-color: $brand-light;
+}
+.bg-brand {
+    background-color: $brand;
+}
+.bg-brand-deep {
+    background-color: $brand-deep;
+}
+.bg-brand-blue {
+    background-color: $brand-blue;
+}
+.bg-brand-green {
+    background-color: $brand-green;
+}
+
+.border-brand {
+    border-color: $brand;
+}
+.border-brand-deep {
+    border-color: $brand-deep;
+}
+.border-brand-blue {
+    border-color: $brand-blue;
+}
+.border-brand-green {
+    border-color: $brand-green;
+}
+
+.text-brand-gray {
+    color: $brand-gray;
+}
+.text-brand {
+    color: $brand;
+}
+.text-brand-alt {
+    color: $brand-alt;
+}
+.text-brand-deep {
+    color: $brand-deep;
+}
+.text-brand-blue {
+    color: $brand-blue;
+}
+.text-brand-green {
+    color: $brand-green;
+}
+
+.hover\:bg-brand-deep {
+    &:hover {
+        background-color: $brand-deep;
+    }
+}
